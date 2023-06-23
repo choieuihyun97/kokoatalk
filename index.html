@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>코코아톡 클론에 오신것을 환영합니다!</title> <!--타이틀변경-->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+ <!--상대바 만들기--> 
+  <div class= "status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+      </svg>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fa-solid fa-battery-half fa-lg"></i>    
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">코코아 클론에 오신것을 환영합니다!</h1>
+    <p class="welcome-header__text"> 만약 코코아 계정이 있으시다면<br> 이메일이나 핸드폰번호로 로그인 하실수 있습니다.</p>
+  </header>
+
+  <form id="login-form">
+    <input type="text" placeholder="이메일 또는 휴대폰 번호"/>
+    <input type="password" placeholder="비밀번호"/>
+    <input type="submit" value="Log in"/>
+    <a href="#">카카오 계정 또는 비밀번호 찾기</a>
+  </form>
+
+
+  <script src="https://kit.fontawesome.com/f7bdc80ff2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
