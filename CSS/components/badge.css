@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .badge{
   background-color: tomato;
   width: 30px;
@@ -8,4 +9,16 @@
   align-items: center;
   color: white;
   font-weight: 600;
+=======
+.badge{
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+>>>>>>> cea3d9fc263a85b00f26d8b17e0423b4d403b9c4
 }

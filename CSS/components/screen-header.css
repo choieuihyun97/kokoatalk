@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .screen-header{
   display: flex;
   justify-content: space-between;
@@ -16,3 +17,23 @@
 .screen-header__icons span{
   margin-left: 25px;
 }
+=======
+.screen-header{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.screen-header__title{
+  padding:32px;
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+.screen-header__icons span{
+  margin-left: 25px;
+}
+>>>>>>> cea3d9fc263a85b00f26d8b17e0423b4d403b9c4
